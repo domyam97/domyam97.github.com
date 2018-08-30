@@ -45,10 +45,10 @@
 .text_box {
     padding-top: 25px;
     text-align: left;
-    border: ridge;
-    border-color: #808080;
+    /*border: ridge;
+    border-color: #808080; 
     background: #f2f2f2;
-    border-radius: 25px;
+    border-radius: 25px;*/
 }
   .container-fluid {
        padding-bottom: 25px;
