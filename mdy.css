@@ -1,0 +1,89 @@
+﻿.bg-1 { 
+       background-color: #E9E9E9; /* Light Grey */
+        color: #000000;
+    }
+.bg-h {
+    background-image: url(background.jpg);
+    color: #ffffff;
+    /* Full height */
+    height: 30em;
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .bg-2 { 
+       background-color: #bad4ff; /* Subdued Blue */
+       color = #ffffff;
+    }
+  .poppins{
+	font: 1.25em "Poppins", sans-serif;
+        line-height: 1;
+    }
+.git {
+    float: right;
+    max-width: 120px;
+    padding-right: 50px;
+}
+.title {
+    font: 3em "Montserrat", sans-serif;
+    line-height: 1.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    font: 3em "Montserrat", sans-serif;
+    line-height: 1.8;
+}
+  .ver_cent{
+       margin-top: auto;
+       margin-bottom: auto;
+   }
+.text_box {
+    padding-top: 25px;
+    text-align: left;
+    border: ridge;
+    border-color: #808080;
+    background: #f2f2f2;
+    border-radius: 25px;
+}
+  .container-fluid {
+       padding-bottom: 25px;
+       padding-left:50px;
+       padding-right:50px;
+    }
+   .navbar{
+       margin-bottom: 0px;
+    }
+   p {
+	font: 1.2em "Roboto Light", sans-serif;
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+    li {
+	font: 1.2em "Roboto Light", sans-serif;
+    }
+   .text_li {
+	    font: 1.2em "Roboto Light", sans-serif;
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+   .carousel-pad {
+       padding-top: 0px;
+       padding-bottom: 10px;
+    }
+  .car-img{
+       max-height:600px;
+       margin-left: auto;
+       margin-right: auto;	
+    }
+  footer{
+       padding-top:50px;
+    }
+  .bg-4 { 
+       background-color: #E9E9E9;
+       color: #000000;
+    }
