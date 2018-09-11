@@ -2,6 +2,10 @@
        background-color: #E9E9E9; /* Light Grey */
         color: #000000;
     }
+h1{
+    font: 3em "Montserrat", sans-serif;
+    line-height:1.8;
+}
 .bg-h {
     background-image: url(background.jpg);
     color: #ffffff;
