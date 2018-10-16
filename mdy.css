@@ -6,6 +6,11 @@ h1{
     font: 3em "Montserrat", sans-serif;
     line-height:1.8;
 }
+
+.carousel-caption{
+    font: 1em "Poppins", sans-serif;
+    text-shadow: .1em .1em #111111;
+}
 .bg-h {
     background-image: url(background.jpg);
     color: #ffffff;
