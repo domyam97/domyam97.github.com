@@ -5,6 +5,8 @@
 h1{
     font: 3em "Montserrat", sans-serif;
     line-height:1.8;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 
 .carousel-caption{
