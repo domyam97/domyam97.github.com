@@ -1,4 +1,4 @@
-﻿.bg-1 { 
+.bg-1 { 
        background-color: #E9E9E9; /* Light Grey */
         color: #000000;
     }
@@ -24,11 +24,11 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
-  .bg-2 { 
+.bg-2 { 
        background-color: #bad4ff; /* Subdued Blue */
        color = #ffffff;
     }
-  .poppins{
+.poppins{
 	font: 1.25em "Poppins", sans-serif;
         line-height: 1;
     }
@@ -49,7 +49,7 @@ h1{
     font: 3em "Montserrat", sans-serif;
     line-height: 1.8;
 }
-  .ver_cent{
+.ver_cent{
        margin-top: auto;
        margin-bottom: auto;
    }
@@ -61,19 +61,22 @@ h1{
     background: #f2f2f2;
     border-radius: 25px;*/
 }
-  .container-fluid {
+.container-fluid {
        padding-bottom: 25px;
        padding-left:50px;
        padding-right:50px;
+       background-color: #ffffff;
+       
     }
-   .navbar{
+.navbar{
        margin-bottom: 0px;
+       background-color: #ffffff;
     }
-   p {
+p {
 	font: 1.2em "Roboto Light", sans-serif;
         line-height: 1.2;
         margin-top: 10px;
-    }
+}
     li {
 	font: 1.2em "Roboto Light", sans-serif;
     }
@@ -94,7 +97,7 @@ h1{
   footer{
        padding-top:50px;
     }
-  .bg-4 { 
+.bg-4 { 
        background-color: #E9E9E9;
        color: #000000;
-    }
+}
