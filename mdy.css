@@ -1,6 +1,8 @@
 .bg-1 { 
        background-color: #E9E9E9; /* Light Grey */
         color: #000000;
+       background: url(img_bk/striped_lens.png) repeat 0 0;
+}
     }
 h1{
     font: 3em "Montserrat", sans-serif;
@@ -14,7 +16,7 @@ h1{
     text-shadow: .1em .1em #111111;
 }
 .bg-h {
-    background-image: url(background.jpg);
+    background-image: url(img_bk/background.jpg);
     color: #ffffff;
     /* Full height */
     height: 30em;
@@ -30,7 +32,7 @@ h1{
     }
 .poppins{
 	font: 1.25em "Poppins", sans-serif;
-        line-height: 1;
+        line-height: 1.2;
     }
 .git {
     float: right;
@@ -54,18 +56,23 @@ h1{
        margin-bottom: auto;
    }
 .text_box {
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: left;
-    /*border: ridge;
+    border: ridge;
     border-color: #808080; 
     background: #f2f2f2;
-    border-radius: 25px;*/
+    border-radius: 25px;
+}
+
+.heading{
+	font-size:1.75em; 
+	font-weight:bold;
+	margin-bottom: 25px;
 }
 .container-fluid {
        padding-bottom: 25px;
        padding-left:50px;
        padding-right:50px;
-       background-color: #ffffff;
        
     }
 .navbar{
