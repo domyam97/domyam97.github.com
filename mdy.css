@@ -3,7 +3,7 @@
         color: #000000;
        background: url(img_bk/striped_lens.png) repeat 0 0;
 }
-    }
+
 h1{
     font: 3em "Montserrat", sans-serif;
     line-height:1.8;
@@ -14,6 +14,12 @@ h1{
 .carousel-caption{
     font: 1em "Poppins", sans-serif;
     text-shadow: .1em .1em #111111;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 .bg-h {
     background-image: url(img_bk/background.jpg);
@@ -29,11 +35,11 @@ h1{
 .bg-2 { 
        background-color: #bad4ff; /* Subdued Blue */
        color = #ffffff;
-    }
+}
 .poppins{
 	font: 1.25em "Poppins", sans-serif;
-        line-height: 1.2;
-    }
+        line-height: 1;
+}
 .git {
     float: right;
     max-width: 120px;
@@ -54,7 +60,7 @@ h1{
 .ver_cent{
        margin-top: auto;
        margin-bottom: auto;
-   }
+}
 .text_box {
     padding-top: 20px;
     text-align: left;
@@ -62,6 +68,7 @@ h1{
     border-color: #808080; 
     background: #f2f2f2;
     border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 .heading{
@@ -74,36 +81,35 @@ h1{
        padding-left:50px;
        padding-right:50px;
        
-    }
+}
 .navbar{
        margin-bottom: 0px;
        background-color: #ffffff;
-    }
+}
 p {
 	font: 1.2em "Roboto Light", sans-serif;
         line-height: 1.2;
         margin-top: 10px;
 }
-    li {
+li {
 	font: 1.2em "Roboto Light", sans-serif;
-    }
-   .text_li {
+}
+.text_li {
 	    font: 1.2em "Roboto Light", sans-serif;
         line-height: 1.2;
         margin-top: 10px;
-    }
-   .carousel-pad {
+}
+.carousel-pad {
        padding-top: 0px;
        padding-bottom: 10px;
-    }
-  .car-img{
+}
+.car-img{
        max-height:600px;
        margin-left: auto;
-       margin-right: auto;	
-    }
-  footer{
+}
+footer{
        padding-top:50px;
-    }
+}
 .bg-4 { 
        background-color: #E9E9E9;
        color: #000000;
