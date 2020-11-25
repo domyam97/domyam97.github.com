@@ -4,7 +4,7 @@
     <title>MIDI Glove</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="icon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -34,24 +34,24 @@
 </nav>
 
 <body class="bg-1">
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" style="background-color: #E9E9E9; margin-bottom: 25px;">
         <h1 class="poppins" style="font-size:3em;padding-top:10px"> MIDI Glove</h1>
-        <div class="container text-center" style="max-width: 900px">
-            <p style="font-size: 1em;">
+        <div class="container text-left" style="max-width: 900px">
+            <p style="font-size: 1.2em; line-height: 1.4em;">
                 This project was an attempt to make a musical instrument you could wear on your hand. This glove consisted had an 9-DOF IMU and four bend sensors as inputs.
-                I used Adafruit's Feather module with a small packet radio onboard as my microcontroller and wireless communications hub and I wrote Arduino code to collect
+                I used Adafruit's Feather module with a small packet radio onboard as my microcontroller and wireless communications hub. I wrote Arduino code to collect
                 the user's hand orientation and movements, as well as which fingers were bent. The angle of the hand determined the pitch of the note while the movements determined its velocity and
                 throw to the left or right.  Each finger activated a different MIDI channel which could each be programmed to a different instrument. The result was an intuitive device that could control up 
                 to four instruments at once in real time.
             </p>
         </div>
-        <a href="https://github.com/domyam97/MIDI-Glove"> <img src="GitHub_Logo.png"  class="git"> </a>
+        <a href="https://github.com/domyam97/MIDI-Glove"> <img src="img/GitHub_Logo.png"  class="git"> </a>
     </div>
 
     <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-md-6">
-                <h1 class="poppins" style="font-size:2em;"> My Contributions </h1>
+            <div class="col-md-6 vcenter">
+                <h1 class="poppins heading"> Tasks </h1>
                 <div class="container-fluid text_box">
                     <ul>
                         <li class="text_li">Defined parts list and BOM with reasonable budget constraints.</li>
@@ -62,8 +62,8 @@
                         <li class="text_li">Managed communication protocol in order to minimize lag and dropped packets.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-md-6">
+            </div><!--
+            --><div class="col-md-6 vcenter">
                 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="5000" style="margin-top:20px;">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -75,21 +75,21 @@
                     <!-- Slide wrappers -->
                     <div class="carousel-inner bg-2">
                         <div class="item active">
-                            <img src="glove_ex3.jpg">
+                            <img src="img/glove_ex3.jpg">
                             <div class="carousel-caption d-none d-md-block">
                                 <p>Top of glove showing bend sense resistors and Feather board.</p>
                             </div>
                         </div>
 
                         <div class="item">
-                            <img src="glove_ex2.jpg">
+                            <img src="img/glove_ex2.jpg">
                             <div class="carousel-caption d-none d-md-block">
                                 <p>Accelerometer in palm of glove.</p>
                             </div>
                         </div>
 
                         <div class="item">
-                            <img src="glove_ex1.jpg">
+                            <img src="img/glove_ex1.jpg">
                             <div class="carousel-caption d-none d-md-block">
                                 <p>Complete glove in action.</p>
                             </div>
@@ -99,13 +99,11 @@
 
             </div>
             </div>
-        <div class="row bg-2"style="text-align:center;margin-top:20px;">
-            <p class="poppins" style="font-size:2em;">Demo Video</p>
-        </div>
-        <div class="row bg-2" style="margin-top:0px;padding-bottom:10px;padding-top:10px">
-            <div class="col-lg-4 col-lg-offset-4" style="text-align:center">
+        <div class="row bg-1"style="text-align:center;margin-top:20px;">
+            <h1 class="poppins heading">Demo Video</h1>
+            <div class="col-lg-4 col-lg-offset-4" style="text-align:center;padding-bottom:10px;">
                 <video style="max-width:75%;" controls>
-                    <source src="glove_vid.mp4" type="video/mp4">
+                    <source src="img/glove_vid.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>

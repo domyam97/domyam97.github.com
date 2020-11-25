@@ -1,10 +1,9 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Fixed Wing 2018</title>
+    <title>Fixed Wing 2019</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="icon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -34,88 +33,123 @@
 </nav>
 
 <body class="bg-1">
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" style="background-color: #E9E9E9">
         <h1 class="poppins" style="font-size:3em; padding-top:10px"> Fixed Wing 2019 </h1>
-        <div class="container text-center" style="max-width: 800px">
-            <p style="font-size: 1.2em;">
-                As Project Lead I'm in charge of overall system architecture, power plant design, controls, 
+        <div class="container text-left" style="max-width: 800px">
+            <p style="font-size: 1.2em; line-height: 1.4em;">
+                As Project Lead, I was in charge of overall system architecture, power plant design, controls, 
                 and aerodynamics for the OS-3 Raven. With a team of about 10 students, we 
-                designed this plane for the SAE Aero Micro class in 2019, but weren't able to compete. The challenge
-                for this competition is to carry as much PVC payload as possible while remaining lightweight and easily
-                assembled. We have continued to develop the plane and refine the design 
-                in the hope of using the lessons we've learned in the 2019 Competition.
+                designed this plane for the SAE Aero Micro class in 2018, but weren't able to compete. The challenge
+                for this competition was to carry as much PVC tube "payload" as possible while remaining compact and easily
+                assembled. We continued to develop the plane and refine the design 
+                for the 2019 Competition. We attended the 2019 SAE Aero Design East competition in May 2019. 
             </p>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-md-6" style="margin-top: 5px;">
-                <h1 class="poppins" style="font-size:1.75em;"> Progress </h1>
-                <div class="container-fluid text_box" style="padding-top:0px">
+    <div class="container-fluid" style = "margin-top: 30px;">
+        <div class="row text-center" style="margin-bottom: 30px">
+            <div class="col-md-6 vcenter">
+                <h1 class="poppins heading"> Design </h1>
+                <div class="container-fluid text_box" style="padding-top:15 px">
+                    <p> During the design stage, we worked to identify the best strategy for the competition.
+                    We concluded that a wing over configuration would offer us the most
+                    stability and therefore versatility in payload. </p>
+                    <p> During the design process, my work included: </p>
                     <ul>
                         <li class="text_li">
-                            Chose airfoils for the highest Lift/Drag ratio at low Reynolds Number (1000-5000) due to small scale wings.
+                            Choosing airfoils for the highest Lift/Drag ratio at low Reynolds Number (1000-5000) due to small scale wings.
                         </li>
-                        <li class="text_li">Designed wings and wing mounts in SOLIDWORKS for 3D print.</li>
-                        <li class="text_li">Removed material and mass from 3D printed shapes in order to keep plane lightweight.</li>
+                        <li class="text_li">Designing wing structures and airfoil profile in SOLIDWORKS for 3D print.</li>
+                        <li class="text_li">Optimizing 3D printed structures in order to reduce weight.</li>
                         <li class="text_li">Designed parts to be quickly and easily removed from chassis and to change position along length of plane for CG adjustment.</li>
                     </ul>
                 </div>
-                <h1 class="poppins" style="font-size:1.75em;"> Results </h1>
-                <div class="container-fluid text_box" style="padding-top:0px">
+	       	</div><!--
+	       	--><div class="col-md-6 vcenter">                
+             <img class="img-responsive" src="img/raven.jpg">
+		     <div class-"caption">
+			     <p> Solidworks render of early design. </p>
+		     </div>
+           	</div>
+		</div>
+		<div class="row text-center" style="margin-bottom: 50px">
+		    <div class="col-md-6 vcenter">
+		             <img class="img-responsive" src="img/raven_ex1.jpg">
+			     <div class-"caption">
+				     <p> First prototype with clear "MonoKote" to showcase 3D printed wing sections. </p>
+			     </div>
+			</div><!--
+		   
+			
+			--><div class="col-md-6 vcenter">
+	                <h1 class="poppins heading"> Build </h1>
+	                <div class="container-fluid text_box">
+	            	<p> We assembled the plane using both typical model construction methods and novel processes
+	            	like 3D printing. This allowed us to rapidly iterate designs more easily than with traditional
+	            	build methods.</p>
+	            	<p> Unique features: </p>
                     <ul>
                         <li class="text_li">
-                            Successful full build of plane.                  
+                            PVC center spar for easily mounting and removing components.
                         </li>
-                        <li class="text_li">Tested plane performance compared to simulations.</li>
-                        <li class="text_li">Developed a fully 3D printed airframe.</li>
-                        <li class="text_li"> Used 3D Printing to create light and strong wings.</li>
+                        <li class="text_li">3D printed wing structures using Markforged Onyx filament.</li>
+                        <li class="text_li">Linear micro servos for control surface actuation. </li>
+                        <li class="text_li">Wing structural spar is integrated into the 3D printed wing structure. </li>
                     </ul>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="5000" style="margin-top:20px;">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                    </ol>
-
-                    <!-- Slide wrappers -->
-                    <div class="carousel-inner bg-2">
-                        <div class="item active">
-                            <img src="raven_ex5.jpg">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>Early concept render showing system architecture.</p>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <img src="raven_ex3.jpg">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>Render of final CAD showing redesigned struts and mounted payload.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="raven.jpg">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>Render of final design in flight.</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="raven_ex1.jpg">
-                            <div class="carousel-caption d-none d-md-block">
-                                <p>Fully assembled design with "MonoKote" covering on wings.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+	            	</div>
+	        </div>
+	    </div>
+	    <div class="row text-center" style="margin-bottom: 50px">    
+			<div class="col-md-6 vcenter">
+	                <h1 class="poppins heading"> Redesign </h1>
+	                <div class="container-fluid text_box">
+	            	<p> After initial testing, we found that the plane was too heavy to fly within the constraints
+	            	of the competition. In order to reduce weight but still be able to quickly assemble the plane
+	            	we chose to make material changes and retain much of the design. </p>
+	            	<p> New features included: </p>
+	            	<ul>
+                        <li class="text_li">
+                            Hollow carbon fiber body spar which signifigantly reduced chassis weight.
+                        </li>
+                        <li class="text_li">Foam wings with carbon fiber wing spars.</li>
+                        <li class="text_li">Larger wing servos for more reliable actuation. </li>
+                    </ul>
+	            	</div>
+	        </div><!--
+		    --><div class="col-md-6 vcenter">
+		             <img class="img-responsive" src="img/raven_v2.jpg">
+			     <div class-"caption">
+				     <p> Fully assembled design with "MonoKote" covering on wings. </p>
+			     </div>
+			</div>
+		</div>
+		<div class="row text-center" style="margin-bottom: 10px">
+			<div class="col-md-6 vcenter">
+		             <img class="img-responsive" src="img/raven-comp.jpg">
+			     <div class-"caption">
+				     <p> AeroNU Fixed Wing Team at competition. </p>
+			     </div>
+			</div><!--
+		    --><div class="col-md-6 vcenter">
+	                <h1 class="poppins heading" > Results </h1>
+	                <div class="container-fluid text_box">
+	                	<p> After two years of development, we were able to take the plane to compete at SAE Aero Design
+	                	East 2019. This was the first comptetion anyone on the team at the time had attended. We were able to 
+	                	talk to aerospace professionals from around the country and present our design to a panel of experts.
+	                	We also got to see some amazing student designs from teams all around the world. </p>
+	                	<p> These are the major accomplishments that stand out for me: </p>
+	                    <ul>
+	                        <li class="text_li">
+	                            Successful full build of plane.                  
+	                        </li>
+	                        <li class="text_li">Performed three flight attempts in varying conditions. </li>
+	                        <li class="text_li">Quickly assessed and fixed damage after unsuccessful attempts.</li>
+	                        <li class="text_li">Led a team of students to an international competition and inspired them to continue in aerospace design.</li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
 </body>

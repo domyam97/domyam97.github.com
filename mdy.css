@@ -1,7 +1,9 @@
-﻿.bg-1 { 
+.bg-1 { 
        background-color: #E9E9E9; /* Light Grey */
         color: #000000;
-    }
+       background: url(img_bk/striped_lens.png) repeat 0 0;
+}
+
 h1{
     font: 3em "Montserrat", sans-serif;
     line-height:1.8;
@@ -13,8 +15,14 @@ h1{
     font: 1em "Poppins", sans-serif;
     text-shadow: .1em .1em #111111;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 .bg-h {
-    background-image: url(background.jpg);
+    background-image: url(img_bk/background.jpg);
     color: #ffffff;
     /* Full height */
     height: 30em;
@@ -24,14 +32,14 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
-  .bg-2 { 
+.bg-2 { 
        background-color: #bad4ff; /* Subdued Blue */
        color = #ffffff;
-    }
-  .poppins{
+}
+.poppins{
 	font: 1.25em "Poppins", sans-serif;
         line-height: 1;
-    }
+}
 .git {
     float: right;
     max-width: 120px;
@@ -49,52 +57,60 @@ h1{
     font: 3em "Montserrat", sans-serif;
     line-height: 1.8;
 }
-  .ver_cent{
+.ver_cent{
        margin-top: auto;
        margin-bottom: auto;
-   }
+}
 .text_box {
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: left;
-    /*border: ridge;
+    border: ridge;
     border-color: #808080; 
     background: #f2f2f2;
-    border-radius: 25px;*/
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
-  .container-fluid {
+
+.heading{
+	font-size:1.75em; 
+	font-weight:bold;
+	margin-bottom: 25px;
+}
+.container-fluid {
        padding-bottom: 25px;
        padding-left:50px;
        padding-right:50px;
-    }
-   .navbar{
+       
+}
+.navbar{
        margin-bottom: 0px;
-    }
-   p {
+       background-color: #ffffff;
+}
+p {
 	font: 1.2em "Roboto Light", sans-serif;
         line-height: 1.2;
         margin-top: 10px;
-    }
-    li {
+}
+li {
 	font: 1.2em "Roboto Light", sans-serif;
-    }
-   .text_li {
+}
+.text_li {
 	    font: 1.2em "Roboto Light", sans-serif;
         line-height: 1.2;
         margin-top: 10px;
-    }
-   .carousel-pad {
+}
+.carousel-pad {
        padding-top: 0px;
        padding-bottom: 10px;
-    }
-  .car-img{
+}
+.car-img{
        max-height:600px;
        margin-left: auto;
-       margin-right: auto;	
-    }
-  footer{
+}
+footer{
        padding-top:50px;
-    }
-  .bg-4 { 
+}
+.bg-4 { 
        background-color: #E9E9E9;
        color: #000000;
-    }
+}
