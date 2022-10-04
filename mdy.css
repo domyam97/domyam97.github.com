@@ -76,10 +76,15 @@ h1{
     margin-bottom: 20px;
 }
 
+.block_text{
+    font-size: 1.15em;
+}
+
 .heading{
 	font-size:1.75em; 
 	font-weight:bold;
 	margin-bottom: 25px;
+    margin-top: 25px;
 }
 .container-fluid {
        padding-bottom: 25px;
