@@ -69,7 +69,7 @@ h1{
 .text_box {
     padding-top: 20px;
     text-align: left;
-    border: ridge;
+    border: solid;
     border-color: #808080; 
     background: #f2f2f2;
     border-radius: 25px;
